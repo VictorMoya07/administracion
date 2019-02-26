@@ -236,10 +236,12 @@ footer .copyright {
     }
     header .menu {
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
+        width: 100%;
     }
     header .menu a {
-        margin: 10px 20px;
+        margin: 10px auto;
+        width: 100%;
     }
     header .textos .texto-titulo {
         font-size: 45px;
@@ -285,31 +287,15 @@ footer .copyright {
     }
 }
 
-@media screen and (max-width: 520px) {
-    header .menu {
-        text-align: center;
-        margin-bottom: 30px;
-        margin-right: 20px;
-    }
-    header .menu a {
-        width: 80%;
-        text-align: center;
-        margin: 10px 20px;
-    }
-    header .textos .texto-titulo {
-        font-size: 45px;
-        margin-bottom: 15px;
-    }
-}
-
 @media screen and (max-width: 400px) {
-    header .textos .texto-titulo {
-        font-size: 55px;
-        margin-bottom: 15px;
-    }
     .main .acerca-de article h3 {
         font-size: 34px;
         margin-bottom: 10px;
+    }
+    header .menu {
+        text-align: center;
+        margin-bottom: 50px;
+        width: 100%;
     }
     .main .menu article .nombre,
     .main .menu article .precio {
