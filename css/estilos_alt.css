@@ -35,6 +35,7 @@ header .contenedor {
 header .menu {
     width: 100%;
     text-align: right;
+    margin-bottom: 15px;
 }
 
 header .menu a {
@@ -52,34 +53,34 @@ header .menu a:hover {
     font-weight: 700;
 }
 
-header .textos {
+header .textos2 {
     width: 100%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 60%;
     margin-top: -52px;
 }
 
-header .textos .texto-titulo {
-    font-size: 70px;
+header .textos2 .texto-titulo {
+    font-size: 69px;
     font-weight: 600;
     color: #92153A;
-    /* text-shadow: 5px 5px 10px #fff;*/
+    text-shadow: 5px 5px 10px #fff;
 }
 
-header .textos .texto-titulo span {
+header .textos2 .texto-titulo span {
     font-weight: 300;
-    /* text-shadow: 5px 5px 5px #fff;*/
+    text-shadow: 5px 5px 5px #fff;
 }
 
-header .textos h3 {
+header .textos2 h3 {
     font-weight: 600;
     font-size: 25px;
     font-style: italic;
     color: #fff;
 }
 
-header .textos h2 {
+header .textos2 h2 {
     font-weight: 600;
     font-size: 35px;
     font-style: italic;
@@ -217,13 +218,13 @@ footer {
     background: #92153A;
     left: 0px;
     bottom: 0px;
-    height: 100px;
+    height: 100%;
     width: 100%;
 }
 
 footer .copyright {
     text-align: center;
-    padding: 15px 0;
+    padding: 20px 0;
     color: #fff;
 }
 
@@ -231,6 +232,12 @@ footer .copyright {
 /*--------------------------------------PAG2--------------------------------------------------------------------*/
 
 .parrafo {
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+}
+
+.parrafo2 {
     text-align: justify;
     color: black;
     font-size: 15px;
@@ -249,17 +256,131 @@ footer .copyright {
     color: #92153A;
     font-size: 35px;
     font-weight: bold;
+    border-bottom: 1px solid #92153A;
 }
+
+.fieldset1 {
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fieldset1 h4 {
+    color: #92153A;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #92153A;
+}
+
+.parrafo2 {
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+    width: 390px;
+    margin-right: 10px;
+}
+
+.imagenServicio {
+    width: 390px;
+}
+
+.imagenServicio img {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 90%;
+    opacity: 0.9;
+}
+
+.parrafo3:nth-of-type(2) {
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+    width: 390px;
+    margin-left: 10px;
+}
+
+.imagenServicio3:nth-of-type(1) {
+    width: 390px;
+}
+
+.imagenServicio3 img {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 90%;
+    opacity: 0.9;
+}
+
+#tituloServicio {
+    margin-bottom: 30px;
+}
+
+#tituloServicio h2 {
+    font-size: 40px;
+    color: #92153A;
+    font-weight: 600;
+    text-shadow: 5px 5px 5px rgb(131, 115, 115);
+}
+
+
+/*.imagenServicio2 {
+    width: 390px;
+    float: right;
+}
+
+.imagenServicio2 #img2 {
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 90%;
+}*/
 
 
 /*------------------------------MEDIAS QUERYS---------------------------*/
 
+@media screen and (max-width:950px) {
+    header .textos2 .texto-titulo {
+        font-size: 50px;
+    }
+    header .textos2 h3 {
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width:800px) {
+    .parrafo3:nth-of-type(2) {
+        text-align: justify;
+        color: black;
+        font-size: 15px;
+        width: 100%;
+        margin: 0px;
+        order: 1;
+    }
+    .imagenServicio3:nth-of-type(1) {
+        width: 100%;
+        order: 2;
+    }
+    .parrafo2 {
+        text-align: justify;
+        color: black;
+        font-size: 15px;
+        width: 100%;
+    }
+    .imagenServicio {
+        width: 100%;
+    }
     header .contenedor {
         position: static;
         height: auto;
     }
-    header .textos {
+    header .textos2 {
         position: static;
         margin: 100px 0;
         margin-top: 30px;
@@ -273,10 +394,10 @@ footer .copyright {
         margin: 10px auto;
         width: 100%;
     }
-    header .textos .texto-titulo {
-        font-size: 45px;
+    header .textos2 .texto-titulo {
+        font-size: 55px;
     }
-    header .textos h3 {
+    header .textos2 h3 {
         font-size: 15px;
     }
     .fieldset {
@@ -286,6 +407,17 @@ footer .copyright {
         width: 100%;
         padding: 10px;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+    }
+    .fieldset1 {
+        margin: 0 auto;
+        border-radius: 20px;
+        background-color: white;
+        width: 100%;
+        padding: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
     }
     .fieldset h3 {
         color: #92153A;
@@ -327,5 +459,11 @@ footer .copyright {
     .main .ubicacion .horarios {
         width: 100%;
         text-align: center;
+    }
+    header .textos2 .texto-titulo {
+        font-size: 50px;
+    }
+    header .textos2 h3 {
+        font-size: 15px;
     }
 }
