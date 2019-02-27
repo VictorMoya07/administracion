@@ -65,7 +65,7 @@ header .textos .texto-titulo {
     font-size: 70px;
     font-weight: 600;
     color: #92153A;
-    text-shadow: 5px 5px 5px #fff;
+    text-shadow: 5px 5px 10px #fff;
 }
 
 header .textos .texto-titulo span {
@@ -139,6 +139,7 @@ header .textos h2 {
     font-size: 15px;
     line-height: 20px;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 

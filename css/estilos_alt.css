@@ -259,6 +259,16 @@ footer .copyright {
     border-bottom: 1px solid #92153A;
 }
 
+.fieldset h4 {
+    color: #92153A;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #92153A;
+}
+.fieldset ul{
+    margin-left: 60px;
+}
+
 .fieldset1 {
     margin: 0 auto;
     border-radius: 20px;
@@ -279,7 +289,7 @@ footer .copyright {
 }
 
 .parrafo2 {
-    text-align: justify;
+    text-align: left;
     color: black;
     font-size: 15px;
     width: 390px;
