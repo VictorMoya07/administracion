@@ -62,6 +62,7 @@ header .textos {
 }
 
 header .textos .texto-titulo {
+    font-family: 'Kurale', serif;
     font-size: 70px;
     font-weight: 600;
     color: #92153A;
