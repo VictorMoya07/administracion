@@ -311,7 +311,7 @@ footer .copyright {
 }
 
 .parrafo3:nth-of-type(2) {
-    text-align: justify;
+    text-align: left;
     color: black;
     font-size: 15px;
     width: 390px;
