@@ -66,12 +66,12 @@ header .textos .texto-titulo {
     font-size: 70px;
     font-weight: 600;
     color: #92153A;
-    text-shadow: 5px 5px 10px #fff;
+    text-shadow: 0px 0px 8px #fff;
 }
 
 header .textos .texto-titulo span {
     font-weight: 300;
-    text-shadow: 5px 5px 5px #fff;
+    text-shadow: 0px 0px 8px #fff;
 }
 
 header .textos h3 {
